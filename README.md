@@ -1,4 +1,3 @@
-
 # Weather App  
 A simple weather app that fetches real-time weather data using an API.  
 
@@ -9,10 +8,10 @@ A simple weather app that fetches real-time weather data using an API.
 
 ## Usage  
 1️⃣ Enter a city name in the search box.  
-2️⃣ Click the search button to fetch weather details.  
+2️⃣ Click the search button to feth weather details.  
 
 ## Live Demo  
-🔗 [Live Link](#) *(Replace `#` with your actual link)*  
+🔗 [Live Link](https://aadhiprince.github.io/weather-app/)
 
 ## Technologies Used  
 - HTML  
