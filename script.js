@@ -22,25 +22,25 @@ fetch(apiUrl)
     document.getElementById("result-box").innerHTML= `Temperature : ${temperature} &deg;C <br>
     Description : ${description}`
     if(description.includes("rain")){
-        document.body.style.backgroundImage ='url("Rainy.jpg")'
+        document.body.style.backgroundImage ='url("./images/Rainy.jpg")'
     }
     else if(description.includes("cloud")){
-         document.body.style.backgroundImage ='url("Cloudy.jpg")'
+         document.body.style.backgroundImage ='url("./images/Cloudy.jpg")'
     }
     else if(description.includes("sky")){
-        document.body.style.backgroundImage ='url("clearSky.jpg")'
+        document.body.style.backgroundImage ='url("./images/clearSky.jpg")'
     }
     else if(description.includes("thunder")){
-        document.body.style.backgroundImage ='url("Thunderstrom.jpg")'
+        document.body.style.backgroundImage ='url("./images/Thunderstrom.jpg")'
     }
     else if(description.includes("snow")){
-        document.body.style.backgroundImage ='url("Snowy.jpg")'
+        document.body.style.backgroundImage ='url("./images/Snowy.jpg")'
     }
     else if(description.includes("sun")){
-        document.body.style.backgroundImage ='url("sun.jpg")'
+        document.body.style.backgroundImage ='url("./images/sun.jpg")'
     }
     else{
-        document.body.style.backgroundImage ='url("default.jpg")'
+        document.body.style.backgroundImage ='url("./images/default.jpg")'
     }
 })
 .catch(error => {
