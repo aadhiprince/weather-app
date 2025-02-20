@@ -22,14 +22,15 @@ margin-top: 180px;
     font-weight: 700;
 }
 .reset{
-    padding: 9px;
+    padding: 10px;
     background-color: rgb(209, 43, 43);
     border: 1px solid black;
     border-radius: 5px;
     font-size:18px;
+    margin-bottom: 5px;
 }
 .weather{
-    padding: 10px;
+    padding:10px;
     margin-top: 5px;
     border: 1px solid black;
     border-radius: 5px;
